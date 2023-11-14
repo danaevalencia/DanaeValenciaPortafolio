@@ -1,7 +1,7 @@
 
 /*Página principal*/
 
-/*Título*/
+/*Título animación*/
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 
 html, body { height: 100%; }
@@ -73,11 +73,9 @@ h1 span:nth-child(14){ animation-delay:.65s; }
 
 /*botón CV*/
 .btn btn-warning{
-  --font-family: 'Montserrat Alternates', sans-serif;
-  font-style:var(--bold-font)
-  font-family: 'Montserrat Alternates', sans-serif;;
+  font-family: 'Montserrat Alternates', sans-serif;
   transition: all 0.4s ease-in-out;
-    box-shadow: 2px 2px 5px white;
+  box-shadow: 2px 2px 5px white;
 
 }
 
@@ -91,22 +89,6 @@ color: #1a1618
   box-sizing: border-box;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: #4756df;
-}
-
-a:hover {
-  color: black;
-}
-
-body {
-  font-family: --font-family: 'Montserrat Alternates', sans-serif;
-}
 
 /*Sobre Mí*/
 
@@ -130,10 +112,6 @@ body {
  
 }
 
-
-/*Borde imagen Dana*/
-
-
 .bio {
   width: 25rem;
   padding: 0.625rem;
@@ -154,92 +132,15 @@ font-size: larger;
 font-family: 'Montserrat Alternates', sans-serif;
 }
 .bio p {
-  line-height: var(--line-height);
+  line-height:20px;
   padding: 0.3rem 0;
 }
 
 /*Herramientas*/
-
 /*está interno el css porque así sí salió :c */
 
-
-
-
 /*Proyectos*/
-
-
-/*Contactame*/
-
-.contacto {
-  margin-top: 2rem;
-  font-family: 'Montserrat Alternates', sans-serif;
-  color: #e95d5b;
-
-}
-
-.contacto h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-family: 'Montserrat Alternates', sans-serif;
-
-}
-
-.contenedor-formulario-contacto {
-  max-width: 40.75rem;
-  margin: 0 auto;
-  padding: 0.938rem;
-  border-radius: 15px;
-  transition:all 0.4s ease-in-out;
-    box-shadow: 2px 2px 5px white;
-}
-
-.contenedor-formulario-contacto label {
-  line-height: 2.7em;
-  font-weight:400;
-  color:#e95d5b;
-  font-weight:500;
-  font-family:'Montserrat Alternates', sans-serif;
-}
-
-.contenedor-formulario-contacto textarea {
-  min-height: 6.25rem;
-  font-size: 14px;
-  border-radius: 10px;
-  transition:all 0.4s ease-in-out;
-    box-shadow: 2px 2px 5px white;
-}
-
-.contenedor-formulario-contacto .input-field {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-radius: 10px;
-  border: 2px white;
-  font-size: 0.875rem;
-  outline: none;
-}
-
-.input-field::placeholder {
-  padding: 0.5rem;
-  color:black;
-  font-family:'Montserrat Alternates', sans-serif;
-  font-weight: 400;
-}
-.submit-btn {
-  font-family: 'Montserrat Alternates', sans-serif;
-  width: 15%;
-  padding: 10px;
-  margin: 10px 0;
-  background-color: #e95d5b;
-  border: 2px #e95d5b ;
-  border-radius: 15px;
-  font-size: 1rem;
-  font-weight:100;
-  transition:all 0.4s ease-in-out;
-    box-shadow: 2px 2px 5px white;
-   margin-bottom: 10%;
-}
-
+/*esta internado el css*/
 
 /*footer*/
 
@@ -254,8 +155,6 @@ font-family: 'Montserrat Alternates', sans-serif;
   height: 10%;
     padding: 1em 0;
 margin-top: auto;
-
-
 }
 
 .copy {
