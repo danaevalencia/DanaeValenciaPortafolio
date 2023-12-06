@@ -1,8 +1,10 @@
 
 /*Página principal*/
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap')
 
 /*Título animación*/
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+
 
 html, body { height: 100%; }
 body { display: flex; justify-content: center; align-items: center; margin:20px 0; text-align:center; background:beige; overflow:hidden; }
@@ -102,17 +104,22 @@ color: #1a1618
 }
 
 .img-thumbnail {
-  height: 400px;
-  width: 400px;
+  display: flex;
+  height: 30%;
+  width: 40%;
   align-items: center;
   border-color:#e95d5b;
   border-bottom: 10pt;
   border-radius: 50%;
   border-style:groove;
+    gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
  
 }
 
 .bio {
+  display: flex;
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
@@ -142,6 +149,10 @@ font-family: 'Montserrat Alternates', sans-serif;
 /*Proyectos*/
 /*esta internado el css*/
 
+
+/*Contáctame*/
+
+
 /*footer*/
 
 .footer{
@@ -160,4 +171,13 @@ margin-top: auto;
 .copy {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: smaller;
+}
+
+.footer{
+  display: block;
+ 
+}
+
+. {
+  color: #afad8b;
 }
