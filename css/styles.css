@@ -37,10 +37,10 @@ body:hover span { animation:bounce .6s; }
 .custom-toggler.navbar-toggler {
   border-color: rgb(255,102,203);
 } 
-span:nth-child(4n) { color: #e95d5b; text-shadow:1px 1px #78b995, 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
-span:nth-child(4n-1) { color:#e95d5b; text-shadow:1px 1px #78b995, 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
-span:nth-child(4n-2) { color:#e95d5b; text-shadow:1px 1px #78b995, 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
-span:nth-child(4n-3) { color:#e95d5b; text-shadow:1px 1px #fb962f, 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+span:nth-child(4n) { color: #df1c9e; text-shadow:1px 1px #090a0a, 2px 2px hsl(320, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+span:nth-child(4n-1) { color:#df1c9e; text-shadow:1px 1px #0b0c0b, 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+span:nth-child(4n-2) { color:#df1c9e; text-shadow:1px 1px #0b0c0b 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+span:nth-child(4n-3) { color:#df1c9e; text-shadow:1px 1px #0b0c0b, 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
 
 h1 span:nth-child(2){ animation-delay:.05s; }
 h1 span:nth-child(3){ animation-delay:.1s; }
@@ -108,10 +108,10 @@ color: #1a1618
   height: 30%;
   width: 40%;
   align-items: center;
-  border-color:#e95d5b;
+  border-color:#df1c9e;
   border-bottom: 10pt;
   border-radius: 50%;
-  border-style:groove;
+ 
     gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
@@ -123,8 +123,8 @@ color: #1a1618
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px #afad8b;;
-  background-color:#e95d5b;
+  box-shadow: 0px 2px 15px 2px rgb(0, 0, 0);;
+  background-color:#df1c9e;
 }
 
 
@@ -133,6 +133,7 @@ color: #1a1618
  
 font-family: 'Montserrat Alternates', sans-serif;
 font-size: larger;
+color: #e95d5b;
 }
 
 .bio-texto{
@@ -144,9 +145,26 @@ font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /*Herramientas*/
+
+
 /*está interno el css porque así sí salió :c */
 
 /*Proyectos*/
+
+
+
+.carousel-caption {
+    position: absolute; 
+    right: 15%;
+    top: 125px; 
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0a0808;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); /* Añadir para conseguir el fondo con opacidad */
+}
 /*esta internado el css*/
 
 
@@ -156,7 +174,7 @@ font-family: 'Montserrat Alternates', sans-serif;
 /*footer*/
 
 .footer{
-  background-color:#fdd6e3;
+  background-color:#fdd6e338;
   padding: 1 em 0;
   text-align: center;
   margin: 1rem 0 0;
@@ -173,10 +191,7 @@ margin-top: auto;
   font-size: smaller;
 }
 
-.footer{
-  display: block;
- 
-}
+
 
 . {
   color: #afad8b;
